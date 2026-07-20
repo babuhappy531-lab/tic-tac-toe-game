@@ -47,7 +47,7 @@ tic-tac-toe-game/
 Clone the repository:
 
 ```bash
-git clone https://github.com/babuhappy531-lab/tic-tac-toe-game.git
+git clone https://github.com/happy-531/tic-tac-toe-game.git
 ```
 
 Go to the project folder:
