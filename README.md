@@ -83,6 +83,11 @@ No installation required.
 |--------|------------|
 | <img src="screenshots/winner.jpg" width="250"> | <img src="screenshots/scoreboard.jpg" width="250"> |
 
+
+## 🌐 Live Demo
+
+Play here: https://babuhappy531-lab.github.io/tic-tac-toe-game/
+
 ## 💡 Future Improvements
 
 - 🤖 Single-player mode (AI)
