@@ -75,23 +75,13 @@ No installation required.
 
 ## 📸 Screenshots
 
-### 🏁 Start Screen
+| Start | Gameplay |
+|-------|----------|
+| <img src="screenshots/start.jpg" width="250"> | <img src="screenshots/gameplay.jpg" width="250"> |
 
-![Start Screen](screenshots/start.png)
-
-### 🎮 Gameplay
-
-![Gameplay](screenshots/gameplay.png)
-
-### 🏆 Winner Popup
-
-![Winner Popup](screenshots/winner.png)
-
-### 📊 Scoreboard
-
-![Scoreboard](screenshots/scoreboard.png)
-
----
+| Winner | Scoreboard |
+|--------|------------|
+| <img src="screenshots/winner.jpg" width="250"> | <img src="screenshots/scoreboard.jpg" width="250"> |
 
 ## 💡 Future Improvements
 
