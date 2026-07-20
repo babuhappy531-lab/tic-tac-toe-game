@@ -29,7 +29,7 @@ let O_span= document.querySelector(".O-score");
 
 function reset() {
   buttons.forEach((box)=>{
-    box.innerHTML="";
+    box.textContent="";
     box.disabled=false;
   });
   for (let i=0;i<9;i++){
@@ -49,14 +49,14 @@ function check(){
    
    if (a!="" && b!="" && c!=""){
    if (a==b && a==c){
-     text.innerText=a+" won the game."
+     text.textContent=a+" won the game."
      let X_score=parseInt(X_span.innerText);
      let O_score=parseInt(O_span.innerText);
 
      if (a=="X") {
-       X_span.innerText=X_score+1;
+       X_span.textContent=X_score+1;
      }else{
-       O_span.innerText=O_score+1;
+       O_span.textContent=O_score+1;
      }
      popup.showModal();
      reset()
@@ -64,7 +64,7 @@ function check(){
   }
   }
   if (!board.includes("")) {
-  text.innerText = "Its a draw";
+  text.textContent = "Its a draw";
   popup.showModal();
   reset()
   }
@@ -78,15 +78,15 @@ buttons.forEach((box) => {
     
     box.disabled=true;
     if (current_turn==0){
-      box.innerHTML="X"
+      box.textContent="X"
       board[column-1]="X"
       current_turn+=1
-      status.innerHTML="O's turn"
+      status.textContent="O's turn"
     }else{
-      box.innerHTML="O";
+      box.textContent="O";
       board[column-1]="O"
       current_turn-=1
-      status.innerHTML="X's turn"
+      status.textContent="X's turn"
     }
     check()
   });
@@ -98,6 +98,8 @@ closeBtn.addEventListener('click', () => {
 
 resetbtn.addEventListener("click",()=>{
   reset()
-  X_span.innerText=0;
-  O_span.innerText=0;
+  current_turn = 0;
+  status.textContent = "X's turn";
+  X_span.textContent=0;
+  O_span.textContent=0;
 })
