@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic tac toe game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="game">
+  <div class="score-board">
+    <p class="score-title">score</p>
+    <p class="score">X - <span class="X-score">0</span></p>
+    <p class="score">O - <span class="O-score">0</span></p>
+  </div>
+  <div class="container">
+    <h1 class="heading">Welcome to Tic tac toe game by happy</h1>
+    <div class="game-container">
+      <p class="status">X's turn</p>
+      <div class="rows">
+        <button class="box" name="1"></button>
+        <button class="box" name="2"></button>
+        <button class="box" name="3"></button>
+      </div>
+      <div class="rows">
+        <button class="box" name="4"></button>
+        <button class="box" name="5"></button>
+        <button class="box" name="6"></button>
+      </div>
+      <div class="rows">
+        <button class="box" name="7"></button>
+        <button class="box" name="8"></button>
+        <button class="box" name="9"></button>
+      </div>
+    </div>
+    <button class="reset">reset</button>
+  </div>
+  </div>
+  <dialog class="Popup">
+    <div id="myPopup">
+      <h2 class="popup-text">Error occured</h2>
+      <button id="closeBtn">Close</button>
+    </div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
